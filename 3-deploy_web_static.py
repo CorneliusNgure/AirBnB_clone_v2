@@ -6,7 +6,7 @@ Running a script using Fabric to deploy an archie file to a web server.
 from fabric.api import env, local, put, run
 from datetime import datetime
 from os.path import exists, isdir
-env.hosts = ['34.204.91.21']
+env.hosts = ['34.204.91.21', '107.22.147.5']
 
 
 def do_pack():
